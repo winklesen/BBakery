@@ -1,0 +1,384 @@
+body{
+	margin: 0;
+	padding: 0;	
+	font-family: Montserrat;
+	scroll-behavior: smooth;
+}
+/*::-webkit-scrollbar{
+	width: 0px;
+}*/
+.header{
+	width: auto;
+	height: 665px;
+	background: url(image/roti3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.navbar{
+	width: auto;
+	height: 50px;
+	background: rgba(0,0,0,0.7);
+	line-height: 50px;
+}
+.company1{
+	float: left;
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	font-size: 25px;
+	margin-left: 20px;
+	font-family: Comfortaa;
+}
+.company2{
+	float: left;
+	text-decoration: none;
+	color: #F1B846;
+	font-weight: 600;
+	font-size: 25px;
+	font-family: Comfortaa;
+}
+.rightnav{
+	float: right;
+	margin-right: 20px;
+	text-decoration: none;
+	color: white;
+	filter: opacity(0.75);
+}
+.rightnav:hover{
+	transition: 0.25s;
+	filter: opacity(1);
+}
+.logo{
+	background-image: url(image/logobb2.png);
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+	margin-bottom: 10px;
+}
+.companyname1{
+	font-size: 50px;
+	font-weight: 600;
+	color: white;
+	font-family: Comfortaa;	
+}
+.companyname2{
+	font-size: 50px;
+	font-weight: 600;
+	color: #F1B846;
+	font-family: Comfortaa;
+	
+}
+.companydesc{
+	font-size: 25px;
+	color: white;
+	margin-bottom: 20px;
+}
+.viewmenu{
+	background: transparent;
+	text-decoration: none;
+	border: 2px solid #F1B846;
+	border-radius: 30px;
+	padding: 10px;	
+	color: #F1B846;
+	font-weight: 600;
+	
+}
+.viewmenu:hover{
+	transition: 0.5s;
+	border: 2px solid #F1B846;
+	background: #F1B846;
+	color: black;
+}
+.about{
+	background: #F5F5F5;
+	padding: 100px;
+	text-align: center;
+}
+.headabout{
+	font-size: 35px;
+}
+.garishr{
+	width: 200px;
+	border-top: 1px solid black;
+}
+.descabout{
+	font-family: 'Coda';
+	word-spacing: 5px;
+	margin-top: 25px;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 0 150px 0 150px;
+}
+
+.companyquality{
+	height: 100%;
+}
+.quality{
+	height: 100%;
+	clear: both;
+}
+.conquality{
+	padding: 0 100px 0 100px;
+}
+.conquality2{
+	text-align: center;
+	height: 400px;
+	padding-top: 250px;
+}
+.img1{
+	width: 50%;
+	height: 650px;
+	float: left;
+	background-image: url(image/roti11.png);
+	background-size: cover;
+	background-position: center;
+	margin-right: 100px;
+	/*box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5) ;*/
+	
+}
+.headquality{
+	text-decoration: none;
+	margin-bottom: 25px;
+	text-align: center;
+	font-size: 35px;
+	color: black
+}
+.headquality:hover{
+	color: #1f1f1f;
+	text-decoration: underline;
+}
+.descquality{	
+	font-family: 'Coda';
+	word-spacing: 5px;
+	margin-top: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+} 	
+.img2{
+	float: right;
+	width: 50%;
+	height: 650px;
+	background-image: url(image/roti24.png);
+	background-size: cover;
+	margin-left: 100px;
+	background-position: center;
+	
+}
+.img3{
+	width: 50%;
+	height: 650px;
+	background-image: url(image/roti16.png);
+	background-size: cover;
+	background-position: top;
+	float: left;
+	margin-right: 100px;
+}
+.menu{
+	background: #F5F5F5;
+	clear: both;
+	padding: 50px 100px;
+	text-align: center;
+	
+}
+.deretanmenu{
+	width: 3050px;
+	height: 500px;
+	margin-left: -100px;
+}
+.deretanmenu1{
+	overflow-x: scroll;
+	margin-bottom: 30px;
+}
+.menu1{
+	float: left;
+	height: 500px;
+	width: 500px;
+	background: url(image/roti18.png);
+	background-size: cover;
+	background-position: center;
+}
+.menu2{
+	float: left;
+	margin-left: 5px;
+	height: 500px;
+	width: 500px;
+	background: url(image/roti19.png);
+	background-size: cover;
+	background-position: center;
+}
+.menu3{
+	float: left;
+	margin-left: 5px;
+	height: 500px;
+	width: 500px;
+	background: url(image/roti20.png);
+	background-size: cover;
+	background-position: center;
+}
+.menu4{
+	float: left;
+	margin-left: 5px;
+	height: 500px;
+	width: 500px;
+	background: url(image/roti21.png);
+	background-size: cover;
+	background-position: center;
+}
+.menu5{
+	float: left;
+	margin-left: 5px;
+	height: 500px;
+	width: 500px;
+	background: url(image/roti22.png);
+	background-size: cover;
+	background-position: center;
+}
+.menu6{
+	float: left;
+	margin-left: 5px;
+	height: 500px;
+	width: 500px;
+	background: url(image/roti23.png);
+	background-size: cover;
+	background-position: center;
+}
+.viewmore{
+	background: transparent;
+	text-decoration: none;
+	border: 2px solid #F1B846;
+	border-radius: 30px;
+	padding: 10px;
+	color: #F1B846;
+	font-weight: 600;	
+}
+.viewmore:hover{
+	transition: 0.5s;
+	border: 2px solid #F1B846;
+	background: #F1B846;
+	color: black;
+} 	
+.bakery{
+	background: #eee;
+	padding: 50px 50px 100px 50px;
+}
+.imgb1{
+	background: url(image/chef3.png) ;
+	background-size: cover;
+	background-position: center;
+	height: 450px;
+	width: 450px;
+	float: left;
+}
+.imgb2{
+	background: url(image/chef4.png) ;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 400px;
+	float: right;
+	margin-bottom: 25px;
+}
+.imgb3{
+	background: url(image/chef9.png) ;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 399px;
+	float: right;
+	margin-bottom: 25px;
+}
+.bakerybottom{
+	text-align: center;	
+}
+.headbakery{
+	font-size: 35px;	
+	text-decoration: none;
+	color: black;
+}
+.headbakery:hover{
+	text-decoration: underline;
+	color: #1f1f1f;
+}
+.descbakery{
+	font-family: 'Coda';
+	word-spacing: 5px;
+	margin-top: 10px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.footer{
+	clear: both;
+	
+}
+.topfooter{
+	height: 100px;
+	background-color: #1f1f1f;
+	padding: 20px;
+	color: #F1F1F1;
+}
+.leftfooter{
+	margin-top: 10px;
+	float: left;
+	height: 75px;	
+	margin-left: 20px;
+}
+.headfooter{
+	font-weight: 550;
+	font-size: 18px;
+}
+.descfooter{
+	color: #F1F1F1;
+}
+.rightfooter{
+	margin-top: 10px;
+	float: left;
+	height: 75px;	
+	margin-left: 350px;
+}
+.icon1{
+	font-size: 30px;
+	color: #3b5998;
+}
+.icon2{	
+	margin-left: 10px;
+	font-size: 30px;
+	text-decoration: none;
+	color: #0084b4;
+}
+.icon3{
+	margin-left: 10px;	
+	font-size: 30px;
+	text-decoration: none;
+	color: #cd486b;
+}
+.icon1:hover{
+	color: white;
+}
+.icon2:hover{
+	color: white;
+}
+.icon3:hover{
+	color: white;
+}
+.bottomfooter{
+	background-color: #1f1f1f;
+	padding: 20px;
+	color: #F1F1F1;
+}
+.afooter{
+	float: left;
+	text-decoration: none;
+	color: #F1F1F1;
+	margin-left: 20px;
+}
+.afooter:hover{
+	text-decoration: underline;
+}
+.copyright{
+	float: right;
+}
