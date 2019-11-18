@@ -1,2 +1,2 @@
-# Company-Profile
-Projek Latihan website company profile toko roti dengan css native
+# Bernard Bakery
+Exercise Project company profile website with native css
